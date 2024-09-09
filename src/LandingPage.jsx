@@ -1,6 +1,7 @@
 import React from "react"
 
 import './LandingPage.css';
+import DevReactTexto from "./DevReactText";
 
 
 function LandingPage(){
@@ -19,8 +20,9 @@ function LandingPage(){
                                 src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" 
                                 alt="react icon"
                             ></img>
-                            <h2>Dev</h2>
-                            <h2>React</h2>
+                            <div className="devReactTexto">
+                                <DevReactTexto></DevReactTexto>
+                            </div>
                         </div>
                     </div>
                     <div className="rightInfos">

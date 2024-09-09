@@ -13,8 +13,8 @@
 .infosContainer{
     background-color: black;
     margin: auto;
-    height: 50vh;
-    width: 650px;
+    height: 40vh;
+    width: 600px;
     display: flex;
     
 }
@@ -43,26 +43,33 @@ h2{
     color: white;
     font-size: 300%;
     text-align: center;
+    
 }
 .reactIcon{
-    height: 250px;
-        
+    height: 200px;
+}
+.devReactTexto{
+    background-color: cyan;
+    height: 100%;
+    width: 300px;
 }
 
 @media only screen and (max-width: 600px) {
     .infosContainer{
-        width: 600px;
+        width: 95%;
         flex-direction: column;
     }
-
     .leftInfos{
-        width: 90%;
+        width: 100%;
     }
-
     .reactIcon{
         height: 150px;
     }
+    .devReactTexto{
+        width: 60%;
+    }
     .rightInfos{
-        width: 90%;
+        width: 100%;
+        height: 40%;
     }
 }
