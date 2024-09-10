@@ -2,6 +2,7 @@ import React from "react"
 
 import './LandingPage.css';
 import DevReactTexto from "./DevReactText";
+import Contatos from "./Contatos";
 
 
 function LandingPage(){
@@ -26,7 +27,23 @@ function LandingPage(){
                         </div>
                     </div>
                     <div className="rightInfos">
-                        <p>direita</p>
+                        <Contatos
+                        imagemURL="https://static.vecteezy.com/system/resources/previews/018/886/508/non_2x/email-line-icon-png.png"
+                        imagemAlt="email icon"
+                        texto="igorcandidofs@gmail.com"
+                        ></Contatos>
+                        <br></br>
+                        <Contatos
+                        imagemURL="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                        imagemAlt="github icon"
+                        texto="https://github.com/igorC5"
+                        ></Contatos>
+                        <br></br>
+                        <Contatos
+                        imagemURL="https://i.pinimg.com/originals/88/a9/d0/88a9d0c252977e827f7f3862e8de6714.png"
+                        imagemAlt="phone icon"
+                        texto="+55 46 98824-3039"
+                        ></Contatos>
                     </div>
                 </div>
 
