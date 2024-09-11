@@ -7,7 +7,9 @@ function Contatos({imagemURL, imagemAlt, texto}){
     switch(imagemAlt){
         case "github icon":
             sp.style.width = "50px"
-            break
+            break;
+        default:
+            break;
     }
     
 
