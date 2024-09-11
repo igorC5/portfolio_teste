@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .divContato{
-    border: 3px solid rgba(0, 0, 0, 0.5);
+    border: 3px solid rgba(255, 255, 255, 1);
     border-radius: 5px;
     width: 250%;
     display: flex;
@@ -14,21 +14,20 @@
 
 
 .divContato:hover{
-    background-color: rgba(0, 255, 255, 0.6);
+    background-color: #ff71b1;
     
 }
 
 .divImagem{
     width: 20%;
     text-align: center;
-    border-right: solid 3px rgba(0, 0, 0, 0.5);
+    border-right: solid 2px rgb(255, 255, 255);
     padding: 15px;
 }
 
 img.contatoImg{
     width: 25px;
     text-align: center;
-    
 }
 
 .divSpan{
@@ -39,14 +38,14 @@ img.contatoImg{
 span{
     text-align: right;
     margin: auto;
-    color: rgb(241, 241, 241);
+    color: #ff71b1;
     cursor: pointer;
 }
 
 @media only screen and (max-width: 600px){
     .divContato{
         width: 100%;
-        border: 2px;
+        border: 2px solid rgba(255, 255, 255, 1);
     }
 
 }

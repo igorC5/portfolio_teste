@@ -28,15 +28,15 @@ function LandingPage(){
                     </div>
                     <div className="rightInfos">
                         <Contatos
-                        imagemURL="https://static.vecteezy.com/system/resources/previews/018/886/508/non_2x/email-line-icon-png.png"
-                        imagemAlt="email icon"
-                        texto="igorcandidofs@gmail.com"
-                        ></Contatos>
-                        <br></br>
-                        <Contatos
                         imagemURL="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                         imagemAlt="github icon"
                         texto="https://github.com/igorC5"
+                        ></Contatos>
+                        <br></br>
+                        <Contatos
+                        imagemURL="https://static.vecteezy.com/system/resources/previews/018/886/508/non_2x/email-line-icon-png.png"
+                        imagemAlt="email icon"
+                        texto="igorcandidofs@gmail.com"
                         ></Contatos>
                         <br></br>
                         <Contatos

@@ -7,8 +7,8 @@
 }
 .fundo1{
     height: 100vh;
-    background: radial-gradient(#ff9100, #5e2702);
-    background-color: white;
+    /*background: radial-gradient(#ff9100, #5e2702); */
+    background-color: #420fe7;
     background-repeat:no-repeat;
 }
 .infosContainer{
