@@ -4,6 +4,8 @@ import './LandingPage.css';
 import DevReactTexto from "./DevReactText";
 import Contatos from "./Contatos";
 
+import githubLogo from './assets/githubWhite.png' 
+
 
 function LandingPage(){
     return (
@@ -28,7 +30,7 @@ function LandingPage(){
                     </div>
                     <div className="rightInfos">
                         <Contatos
-                        imagemURL="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                        imagemURL={githubLogo}
                         imagemAlt="github icon"
                         texto="https://github.com/igorC5"
                         ></Contatos>
