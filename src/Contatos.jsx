@@ -4,13 +4,21 @@ function Contatos({imagemURL, imagemAlt, texto}){
 
     let sp = document.getElementsByClassName("contatoImg")[0]
     
-    switch(imagemAlt){
-        case "github icon":
-            sp.style.width = "50px"
-            break;
-        default:
-            break;
+
+    try{
+        switch(imagemAlt){
+            case "github icon":
+                sp.style.width = "50px"
+                break;
+            default:
+                break;
+        }
     }
+    catch(error){
+        console.log(error)
+    }
+    
+    
     
 
     return (
