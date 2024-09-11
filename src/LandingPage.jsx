@@ -59,8 +59,10 @@ function LandingPage(){
                         ></Contatos>
                     </div>
                 </div>
-                
+                <div>
                 <VerMaisBtn></VerMaisBtn>
+                </div>
+                
                 
             </div>
             <div id="fundo2">

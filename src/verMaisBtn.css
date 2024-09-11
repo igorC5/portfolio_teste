@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 100px;
+    margin-top: 20vh;
+
+    width: 10%;
     padding: 10px 2px;
     background-color: #18033c;
     cursor: pointer;
@@ -18,23 +20,36 @@
 
 .verMais span{
     color: #e975d9;
+    
 }
 
 .downArrowImg{
     margin-top: 5px;
     width: 35px;
+    
 }
 
 @media only screen and (max-width: 600px){
     .verMais{
         width: 40%;
-        margin-top: 300%;
+        margin-top: 55%;
     }
 
     .verMais span{
-        font-size: 120%;
+        font-size: 100%;
     }
+}
 
+@media only screen and (max-width: 900px){
+    .verMais{
+        width: 40%;
+        
+    }
+}
 
-
+@media only screen and (max-width: 1199px){
+    .verMais{
+        width: 30%;
+        
+    }
 }
