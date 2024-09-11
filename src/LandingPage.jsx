@@ -56,10 +56,10 @@ function LandingPage(){
                         ></Contatos>
                     </div>
                 </div>
-
+                
             </div>
             <div className="fundo2">
-                <p></p>
+                <p>ola</p>
             </div>
             
         </div>

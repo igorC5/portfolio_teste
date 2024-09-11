@@ -58,6 +58,13 @@ h2{
     width: 300px;
 }
 
+/*FUNDO 2*/
+.fundo2{
+    background-color: black;
+    height: 100vh;
+}
+
+
 @media only screen and (max-width: 600px) {
     .infosContainer{
         width: 95%;
