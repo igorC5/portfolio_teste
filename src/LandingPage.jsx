@@ -48,6 +48,9 @@ function LandingPage(){
                 </div>
 
             </div>
+            <div className="fundo2">
+                <p></p>
+            </div>
             
         </div>
     )
