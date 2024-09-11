@@ -3,8 +3,13 @@
     font-family: 'roboto', sans-serif;
 }
 *{
-  margin: 0px;  
+  margin: 0px; 
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 .fundo1{
     height: 100vh;
     /*background: radial-gradient(#ff9100, #5e2702); */
@@ -59,10 +64,12 @@ h2{
 }
 
 /*FUNDO 2*/
-.fundo2{
+#fundo2{
     background-color: black;
     height: 100vh;
 }
+
+
 
 
 @media only screen and (max-width: 600px) {

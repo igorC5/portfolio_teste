@@ -1,18 +1,21 @@
-import React from "react"
+import {React, useRef}  from "react"
 
 import './LandingPage.css';
 import DevReactTexto from "./DevReactText";
 import Contatos from "./Contatos";
+import VerMaisBtn from "./VerMaisBtn";
 
 import githubLogo from './assets/githubWhite.png' 
 import phoneIcon from './assets/phoneIcon.png'
 import emailIcon from './assets/emailIcon.png'
 
+
 function LandingPage(){
+
     return (
         <div>
             <div className="fundo1">
-                <br></br><br></br><br></br><br></br>
+                <br></br><br></br><br></br>
                 <div className="infosContainer">
                     <div className="leftInfos">
                         <div className="upperLeft">
@@ -57,8 +60,10 @@ function LandingPage(){
                     </div>
                 </div>
                 
+                <VerMaisBtn></VerMaisBtn>
+                
             </div>
-            <div className="fundo2">
+            <div id="fundo2">
                 <p>ola</p>
             </div>
             
