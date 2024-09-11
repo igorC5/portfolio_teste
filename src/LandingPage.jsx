@@ -48,6 +48,12 @@ function LandingPage(){
                         imagemAlt="phone icon"
                         texto="+55 46 98824-3039"
                         ></Contatos>
+                        <br></br>
+                        <Contatos
+                        imagemURL={phoneIcon}
+                        imagemAlt="phone icon"
+                        texto="+55 46 98824-3039"
+                        ></Contatos>
                     </div>
                 </div>
 
