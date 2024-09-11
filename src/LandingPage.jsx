@@ -34,6 +34,7 @@ function LandingPage(){
                         imagemURL={githubLogo}
                         imagemAlt="github icon"
                         texto="https://github.com/igorC5"
+                        isGit={true}
                         ></Contatos>
                         <br></br>
                         <Contatos

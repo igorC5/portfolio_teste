@@ -30,6 +30,11 @@ img.contatoImg{
     text-align: center;
 }
 
+img.gitImg{
+    text-align: center;
+    width: 50px;
+}
+
 .divSpan{
     display: flex;
     width: 80%;

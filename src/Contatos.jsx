@@ -1,33 +1,16 @@
 import './Contatos.css'
 
-function Contatos({imagemURL, imagemAlt, texto}){
+function Contatos({imagemURL, imagemAlt, texto, isGit}){
 
     let sp = document.getElementsByClassName("contatoImg")[0]
     
-
-    try{
-        switch(imagemAlt){
-            case "github icon":
-                sp.style.width = "50px"
-                break;
-            default:
-                break;
-        }
-    }
-    catch(error){
-        console.log(error)
-    }
-    
-    
-    
-
     return (
         <div>
             <div  className="divContato">
                 <div className='divToCopy'></div>
                 <div className="divImagem">
                     <img 
-                    className='contatoImg'
+                    className={ isGit ? 'gitImg' : 'contatoImg'} 
                     src={imagemURL}
                     alt={imagemAlt}
                     ></img>
