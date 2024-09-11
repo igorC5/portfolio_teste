@@ -4,12 +4,16 @@ function Contatos({imagemURL, imagemAlt, texto}){
 
     let sp = document.getElementsByClassName("contatoImg")[0]
     
-
+    switch(imagemAlt){
+        case "github icon":
+            sp.style.width = "50px"
+            break
+    }
     
 
     return (
         <div>
-            <div onClick={clicou()} className="divContato">
+            <div  className="divContato">
                 <div className='divToCopy'></div>
                 <div className="divImagem">
                     <img 
@@ -23,12 +27,7 @@ function Contatos({imagemURL, imagemAlt, texto}){
                 </div>
             </div>
         </div>
-    )
-
-    
-
-
-    
+    ) 
 }
 
 export default Contatos

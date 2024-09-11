@@ -5,7 +5,8 @@ import DevReactTexto from "./DevReactText";
 import Contatos from "./Contatos";
 
 import githubLogo from './assets/githubWhite.png' 
-
+import phoneIcon from './assets/phoneIcon.png'
+import emailIcon from './assets/emailIcon.png'
 
 function LandingPage(){
     return (
@@ -36,13 +37,13 @@ function LandingPage(){
                         ></Contatos>
                         <br></br>
                         <Contatos
-                        imagemURL="https://static.vecteezy.com/system/resources/previews/018/886/508/non_2x/email-line-icon-png.png"
+                        imagemURL={emailIcon}
                         imagemAlt="email icon"
                         texto="igorcandidofs@gmail.com"
                         ></Contatos>
                         <br></br>
                         <Contatos
-                        imagemURL="https://i.pinimg.com/originals/88/a9/d0/88a9d0c252977e827f7f3862e8de6714.png"
+                        imagemURL={phoneIcon}
                         imagemAlt="phone icon"
                         texto="+55 46 98824-3039"
                         ></Contatos>
