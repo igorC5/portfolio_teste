@@ -5,6 +5,7 @@ import DevReactTexto from "./DevReactText";
 import Contatos from "./Contatos";
 import VerMaisBtn from "./VerMaisBtn";
 import ContainerInfos from "./ContainerInfos";
+import Descricao from "./Descricao";
 
 import githubLogo from './assets/githubWhite.png' 
 import phoneIcon from './assets/phoneIcon.png'
@@ -61,14 +62,17 @@ function LandingPage(){
                     </div>
                 </div>
                 <div>
-                <VerMaisBtn></VerMaisBtn>
+                    
+                    <VerMaisBtn></VerMaisBtn>
                 </div>
                 
                 
             </div>
             
             <div id="fundo2">
-                <p>ola</p>
+                <br></br><br></br><br></br>
+                <Descricao></Descricao>
+                <br></br><br></br>
                 <ContainerInfos></ContainerInfos>
             </div>
             
