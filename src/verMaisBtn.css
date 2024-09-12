@@ -5,28 +5,32 @@
     flex-direction: column;
     margin: auto;
     margin-top: 20vh;
+    
 
-    width: 10%;
-    padding: 10px 2px;
-    background-color: #18033c;
+    width: 7%;
+    height: 105px;
+    
+    background-color: rgba(29, 22, 105, 0);
     cursor: pointer;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 100px;
     border-style: none;
     
 }
 .verMais:hover{
-    background-color: #11012e;
+    background-color: rgba(17, 1, 46, 0.45);
 }
 
 .verMais span{
-    color: #e975d9;
+    color: #00d8ff;
+    margin-bottom: 5px;
     
 }
 
 .downArrowImg{
-    margin-top: 5px;
-    width: 35px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    width: 40%;
     
 }
 

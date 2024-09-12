@@ -5,17 +5,18 @@ function VerMaisBtn(){
 
     const fundo2 = document.getElementById("fundo2")
     
-
     function clicou(){
-            
+        window.scrollTo(0, 756)
     }
 
     return (
         <div>
-            <button onClick={()=>clicou()} className="verMais">
-                    <span>Ver mais</span>
-                    <img className="downArrowImg" src={downArrow}></img>
-            </button>
+            <div onClick={()=>{clicou()}} className="verMais">
+                <span>Ver mais</span>
+                <img className="downArrowImg" src={downArrow}></img>
+            </div>
+
+            
         </div>
     )
 }
