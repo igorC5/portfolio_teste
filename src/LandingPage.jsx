@@ -4,6 +4,7 @@ import './LandingPage.css';
 import DevReactTexto from "./DevReactText";
 import Contatos from "./Contatos";
 import VerMaisBtn from "./VerMaisBtn";
+import ContainerInfos from "./ContainerInfos";
 
 import githubLogo from './assets/githubWhite.png' 
 import phoneIcon from './assets/phoneIcon.png'
@@ -68,6 +69,7 @@ function LandingPage(){
             
             <div id="fundo2">
                 <p>ola</p>
+                <ContainerInfos></ContainerInfos>
             </div>
             
             <div id="fundo3">
