@@ -6,6 +6,10 @@
   margin: 0px; 
 }
 
+body{
+    background-color: black;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -13,7 +17,8 @@ html {
 .fundo1{
     height: 100vh;
     /*background: radial-gradient(#ff9100, #5e2702); */
-    background-color: #420fe7;
+    /*background-color: #420fe7; */
+    background-color: rgb(48, 47, 66);
     background-repeat:no-repeat;
 }
 .infosContainer{
@@ -50,7 +55,7 @@ h2{
     color: white;
     font-size: 80px;
     text-align: center;
-    
+    text-shadow: 0 0 10px black;
 }
 .reactIcon{
     height: 200px;
@@ -65,6 +70,13 @@ h2{
 /*FUNDO 2*/
 #fundo2{
     background-color: black;
+    height: 90vh;
+    
+    
+}
+
+#fundo3{
+    background-color: gray;
     height: 100vh;
 }
 

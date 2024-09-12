@@ -8,7 +8,7 @@ import VerMaisBtn from "./VerMaisBtn";
 import githubLogo from './assets/githubWhite.png' 
 import phoneIcon from './assets/phoneIcon.png'
 import emailIcon from './assets/emailIcon.png'
-
+import reactIcon from './assets/reactIcon.webp'
 
 function LandingPage(){
 
@@ -24,7 +24,7 @@ function LandingPage(){
                         <div className="bottomLeft">
                             <img 
                                 className="reactIcon"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" 
+                                src={reactIcon} 
                                 alt="react icon"
                             ></img>
                             <div className="devReactTexto">
@@ -65,7 +65,12 @@ function LandingPage(){
                 
                 
             </div>
+            
             <div id="fundo2">
+                <p>ola</p>
+            </div>
+            
+            <div id="fundo3">
                 <p>ola</p>
             </div>
             
