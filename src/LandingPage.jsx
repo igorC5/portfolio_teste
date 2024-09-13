@@ -16,6 +16,7 @@ import jsIcon from './assets/javascript-logo.png'
 import reactJS from './assets/reactJS.png'
 import nodeIcon from './assets/nodeIcon.png'
 import githubBlack from './assets/githubBlack.png'
+import linkedinIcon from './assets/linkedinIcon.png'
 
 import reactIcon from './assets/reactIcon.webp'
 
@@ -50,16 +51,17 @@ function LandingPage(){
                         ></Contatos>
                         <br></br>
                         <Contatos
+                        imagemURL={linkedinIcon}
+                        imagemAlt="linkedin icon"
+                        texto="linkedin link"
+                        ></Contatos>
+                        <br></br>
+                        <Contatos
                         imagemURL={emailIcon}
                         imagemAlt="email icon"
                         texto="igorcandidofs@gmail.com"
                         ></Contatos>
-                        <br></br>
-                        <Contatos
-                        imagemURL={phoneIcon}
-                        imagemAlt="phone icon"
-                        texto="+55 46 98824-3039"
-                        ></Contatos>
+                        
                         <br></br>
                         <Contatos
                         imagemURL={phoneIcon}
