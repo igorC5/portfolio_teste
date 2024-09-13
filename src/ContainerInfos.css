@@ -38,17 +38,18 @@
 
 .projetoFrame{
     width: 250px;
-    height: 60%;
+    height: 90%;
     background-color: rgb(42, 28, 75);
     border-radius: 25px;
     border: solid black 3px;
     text-align: center;
     grid-row: 1;
+    
 }
 
 .spanBG{
     padding: 15px 0px;
-    margin-top: 25%;
+    margin-top: 45%;
     background-color: black;
 }
 
