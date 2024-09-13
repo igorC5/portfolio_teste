@@ -20,9 +20,51 @@
 }
 
 .containProj{
+    display: grid;
     background-color: rgb(71, 71, 112);
     height: 70vh;
     display: grid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.containProj a{
+    color: white;
+    
+}
+
+.projetoFrame{
+    width: 250px;
+    height: 60%;
+    background-color: rgb(42, 28, 75);
+    border-radius: 50px;
+    border: solid black 3px;
+    text-align: center;
+    grid-row: 1;
+}
+
+.spanBG{
+    padding: 15px 0px;
+    margin-top: 50%;
+    background-color: black;
+}
+
+.projetoFrame span{
+    margin-top: 50%;
+    width: 100%;
+    background-color: black;
+    font-size: 80%;
+
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.projetoFrame span:hover{
+    letter-spacing: 5px;
+    
 }
 
 .img{
