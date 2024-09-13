@@ -96,7 +96,10 @@ function LandingPage(){
             </div>
             
             <div id="fundo3">
-                <p>ola</p>
+                <br></br><br></br>
+                <h2 className="projetosTitulo">PROJETOS</h2>
+                <br></br>
+                <ContainerInfos></ContainerInfos>
             </div>
             
         </div>

@@ -69,13 +69,19 @@ h2{
 
 /*FUNDO 2*/
 #fundo2{
-    background: linear-gradient(rgb(48, 47, 66), black,black, black, black );
+    background: linear-gradient(rgb(48, 47, 66),   black,black, black, black, black, black );
     height: 90vh;
 }
 
 #fundo3{
-    background-color: gray;
+    background-color: rgb(48, 47, 66);
     height: 100vh;
+}
+
+.projetosTitulo{
+    text-shadow: 0 0 20px black;
+    text-align: center;
+    color: white;
 }
 
 

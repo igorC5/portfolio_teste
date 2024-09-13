@@ -1,13 +1,10 @@
 import './ContainerInfos.css'
 
-function ContainerInfos({imagemURL}){
+function ContainerInfos(){
     return (
         <div>
-            <div className='containImg'>
-                <img
-                    className='img'
-                    src={imagemURL}
-                ></img>
+            <div className='containProj'>
+                dsa
             </div>
         </div>
     )
