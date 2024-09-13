@@ -10,6 +10,13 @@ import Descricao from "./Descricao";
 import githubLogo from './assets/githubWhite.png' 
 import phoneIcon from './assets/phoneIcon.png'
 import emailIcon from './assets/emailIcon.png'
+import htmlIcon from './assets/html-icon.png'
+import cssIcon from './assets/css-icon.png'
+import jsIcon from './assets/javascript-logo.png'
+import reactJS from './assets/reactJS.png'
+import nodeIcon from './assets/nodeIcon.png'
+import githubBlack from './assets/githubBlack.png'
+
 import reactIcon from './assets/reactIcon.webp'
 
 function LandingPage(){
@@ -70,10 +77,22 @@ function LandingPage(){
             </div>
             
             <div id="fundo2">
-                <br></br><br></br><br></br>
+                <br></br><br></br>
                 <Descricao></Descricao>
                 <br></br><br></br>
-                <ContainerInfos></ContainerInfos>
+                <div className="containerBackground">
+                    <div className="container">
+                        <img className="img um" src={htmlIcon}></img>
+                        <img className="img um" src={cssIcon}></img>
+                        <img className="img um" src={jsIcon}></img>
+                        <img className="img dois menor" src={githubBlack}></img>
+                        <img className="img dois menor" src={reactJS}></img>
+                        <img className="img dois" src={nodeIcon}></img>
+                    </div>
+
+                    
+                    
+                </div>
             </div>
             
             <div id="fundo3">

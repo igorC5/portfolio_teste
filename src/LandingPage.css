@@ -69,7 +69,8 @@ h2{
 
 /*FUNDO 2*/
 #fundo2{
-    background-color: black;
+    
+    background: linear-gradient(rgb(48, 47, 66), black,black, black, black );
     height: 90vh;
     
     
