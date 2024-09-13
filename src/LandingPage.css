@@ -75,7 +75,8 @@ h2{
 }
 
 #fundo3{
-    background-color: rgb(48, 47, 66);
+    background: linear-gradient(black, #420fe7, #420fe7, #420fe7, #420fe7, #420fe7, #420fe7); 
+    
     height: 100vh;
 }
 

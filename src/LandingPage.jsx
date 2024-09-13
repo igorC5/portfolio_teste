@@ -77,7 +77,7 @@ function LandingPage(){
             </div>
             
             <div id="fundo2">
-                <br></br><br></br>
+                <br></br><br></br><br></br>
                 <Descricao></Descricao>
                 <br></br><br></br>
                 <div className="containerBackground">
@@ -96,7 +96,7 @@ function LandingPage(){
             </div>
             
             <div id="fundo3">
-                <br></br><br></br>
+                <br></br><br></br><br></br><br></br><br></br>
                 <h2 className="projetosTitulo">PROJETOS</h2>
                 <br></br>
                 <ContainerInfos></ContainerInfos>

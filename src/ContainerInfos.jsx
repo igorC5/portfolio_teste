@@ -25,7 +25,7 @@ function ContainerInfos(){
 
                 <br></br>
 
-                <a href='#'>Repositórios no Github</a>
+                <a href='#'>Meus repositórios no Github</a>
 
             </div>
         </div>
