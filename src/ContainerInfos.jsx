@@ -5,19 +5,19 @@ function ContainerInfos(){
         <div>
             <div className='containProj'>
 
-                <div className="projetoFrame">
+                <div className="projetoFrame um">
                     <div className='spanBG'>
                         <span>EM BREVE</span>
                     </div>
                 </div>
 
-                <div className="projetoFrame">
+                <div className="projetoFrame dois">
                     <div className='spanBG'>
                         <span>EM BREVE</span>
                     </div>
                 </div>
 
-                <div className="projetoFrame">
+                <div className="projetoFrame tres">
                     <div className='spanBG'>
                         <span>EM BREVE</span>
                     </div>
