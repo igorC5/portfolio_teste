@@ -53,7 +53,7 @@ function LandingPage(){
                         <Contatos
                         imagemURL={linkedinIcon}
                         imagemAlt="linkedin icon"
-                        texto="linkedin link"
+                        texto="https://www.linkedin.com/in/igor-cândido-c5/"
                         ></Contatos>
                         <br></br>
                         <Contatos
