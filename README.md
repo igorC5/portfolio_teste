@@ -1,4 +1,4 @@
-# Portfólio 
+# Portfólio (incompleto)
 
 você pode acessar meu teste de portfólio utilizando React abaixo:
 
