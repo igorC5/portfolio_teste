@@ -1,6 +1,6 @@
 # Portfólio 
-(utilizando react)
-você pode acessar meu teste de portfólio abaixo:
+
+você pode acessar meu teste de portfólio utilizando React abaixo:
 
 - https://igorc5.github.io/portfolio_teste/
 
