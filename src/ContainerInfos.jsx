@@ -25,7 +25,7 @@ function ContainerInfos(){
 
                 <br></br>
 
-                <a href='#'>Meus repositórios no Github</a>
+                <a target='_blank' href='https://github.com/igorC5?tab=repositories'>Meus repositórios no Github</a>
 
             </div>
         </div>
