@@ -7,19 +7,29 @@ function Contatos({imagemURL, imagemAlt, texto}){
     const [fundo, setFundo] = useState('none')
     const [corTexto, setCorTexto] = useState('white')
     const [mensagem, setMensagem] = useState(texto)
-    
-    function copiar(msg){
-        navigator.clipboard.writeText(msg)
-        setMensagem("Copiado")
+    const [copiando, setCopiando] = useState(false)
 
-        if (corTexto == 'white'){
-            setTimeout(() => {
-                 
-                setMensagem("Clique para copiar")
-                
-            }, 1000);
+    function mouseSaiu(){
+        if (copiando){
+
+        }else{
+            setFundo( "rgba(0,255,255,0)")
+            setCorTexto("white")
+            setMensagem(texto)
         }
         
+    }
+    
+    function copiar(msg){
+        setCopiando(true)
+        navigator.clipboard.writeText(msg)
+        setMensagem("Copiado")
+        setTimeout(() => {
+            setFundo( "rgba(0,255,255,0)")
+            setCorTexto("white")
+            setMensagem(texto)
+            setCopiando(false)
+        }, 1000);
         
     }
 
@@ -29,8 +39,8 @@ function Contatos({imagemURL, imagemAlt, texto}){
                 //style={{backgroundColor:fundo}} 
                 style={{backgroundColor:fundo}}
                 onClick={()=>{copiar(texto)}}
-                onMouseOver={()=>{setFundo("white"), setCorTexto("black"), setMensagem("Clique para copiar")}}
-                onMouseLeave={()=>{setFundo("rgba(0,255,255,0)"), setCorTexto("white"), setMensagem(texto)}}
+                onMouseMove={()=>{setFundo("white"), setCorTexto("black"), setMensagem("Clique para copiar")}}
+                onMouseLeave={()=>{mouseSaiu()}}
                 className="divContato">
 
                 <div className='divToCopy'></div>
