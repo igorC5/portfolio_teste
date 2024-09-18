@@ -2,6 +2,10 @@
 *{
     font-family: 'roboto', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 *{
   margin: 0px; 
 }
@@ -10,9 +14,7 @@ body{
     background-color: black;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 .fundo1{
     height: 100vh;

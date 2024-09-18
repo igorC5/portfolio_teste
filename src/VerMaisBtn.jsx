@@ -1,13 +1,15 @@
 import './verMaisBtn.css'
 import downArrow from './assets/downArrow.png'
+import { useRef } from 'react'
 
 function VerMaisBtn(){
 
     const fundo2 = document.getElementById("fundo2")
     
-    function clicou(){
-        window.scrollTo(0, 756)
-    }
+    
+
+  
+
 
     return (
         <div>
