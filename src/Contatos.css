@@ -10,14 +10,14 @@
     transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: ease;
-
-}
-
-
-.divContato:hover{
-    background-color: white;
     
 }
+
+/*
+.divContato:hover{
+    background-color: white;
+}
+    */
 
 .divImagem{
     width: 20%;
@@ -33,7 +33,7 @@ img.contatoImg{
 
 img.gitImg{
     text-align: center;
-    width: 50px;
+    width: 25px;
 }
 
 .divSpan{
@@ -47,6 +47,12 @@ span{
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
+
+.spanLinkedin{
+    font-size: 85%;
+    text-align: center;
+}
+
 
 @media only screen and (max-width: 600px){
     .divContato{
