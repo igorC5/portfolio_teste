@@ -1,45 +1,59 @@
 import './Contatos.css'
 import { useState } from 'react'
 import copyIcon from './assets/copyIcon.png'
+import checkMark from './assets/checkMark.png'
 
 function Contatos({imagemURL, imagemAlt, texto}){
 
     const [fundo, setFundo] = useState('none')
     const [corTexto, setCorTexto] = useState('white')
     const [mensagem, setMensagem] = useState(texto)
+    const [contatoImg, setContatoImg] = useState(imagemURL)
     const [copiando, setCopiando] = useState(false)
 
-    function mouseSaiu(){
-        if (copiando){
+    function copiar(msg){
+        setCopiando(true)
+        navigator.clipboard.writeText(msg)
+        setMensagem("Copiado")
+        setContatoImg(checkMark)
+        setTimeout(() => {
+            setFundo( "rgba(0,255,255,0)")
+            setCorTexto("white")
+            setMensagem(texto)
+            setCopiando(false)
+            setContatoImg(imagemURL)
+        }, 1000);   
+    }
 
-        }else{
+    function mouseSaiu(){
+        if (!copiando){
+            
+            setContatoImg(imagemURL)
             setFundo( "rgba(0,255,255,0)")
             setCorTexto("white")
             setMensagem(texto)
         }
         
     }
-    
-    function copiar(msg){
-        setCopiando(true)
-        navigator.clipboard.writeText(msg)
-        setMensagem("Copiado")
-        setTimeout(() => {
-            setFundo( "rgba(0,255,255,0)")
-            setCorTexto("white")
-            setMensagem(texto)
-            setCopiando(false)
-        }, 1000);
+
+    function mouseMoveu(){
+        setFundo("white")
+        setCorTexto("black")
+        setContatoImg(checkMark)
+        if(mensagem != "Copiado"){
+            setMensagem("Clique para copiar")
+            setContatoImg(copyIcon)
+        }
         
     }
-
+    
     return (
         <div>
             <div 
                 //style={{backgroundColor:fundo}} 
                 style={{backgroundColor:fundo}}
                 onClick={()=>{copiar(texto)}}
-                onMouseMove={()=>{setFundo("white"), setCorTexto("black"), setMensagem("Clique para copiar")}}
+                onMouseMove={()=>{mouseMoveu()}}
                 onMouseLeave={()=>{mouseSaiu()}}
                 className="divContato">
 
@@ -47,7 +61,7 @@ function Contatos({imagemURL, imagemAlt, texto}){
                 <div className="divImagem">
                     <img 
                     className={ imagemAlt == 'github icon' && !(mensagem == 'Clique para copiar') ? 'gitImg' : 'contatoImg'} 
-                    src={(mensagem == 'Clique para copiar') ? copyIcon : imagemURL}
+                    src={contatoImg}
                     alt={imagemAlt}
                     ></img>
                 </div>
