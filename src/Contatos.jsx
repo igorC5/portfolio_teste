@@ -13,7 +13,7 @@ function Contatos({imagemURL, imagemAlt, texto}){
         setMensagem("Copiado")
         setTimeout(() => {
             if (corTexto == 'white'){
-                alert(corTexto)
+                
                 setMensagem("Clique para copiar")
             }
             
