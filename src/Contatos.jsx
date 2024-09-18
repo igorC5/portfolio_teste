@@ -11,13 +11,15 @@ function Contatos({imagemURL, imagemAlt, texto}){
     function copiar(msg){
         navigator.clipboard.writeText(msg)
         setMensagem("Copiado")
-        setTimeout(() => {
-            if (corTexto == 'white'){
-                
+
+        if (corTexto == 'white'){
+            setTimeout(() => {
+                 
                 setMensagem("Clique para copiar")
-            }
-            
-        }, 1000);
+                
+            }, 1000);
+        }
+        
         
     }
 
