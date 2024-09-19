@@ -88,7 +88,7 @@ function LandingPage(){
                         <img className="img um" src={cssIcon}></img>
                         <img className="img um" src={jsIcon}></img>
                         <img className="img dois menor" src={githubBlack}></img>
-                        <img className="img dois menor" src={reactJS}></img>
+                        <img className="img tres menor" src={reactJS}></img>
                         {// <img className="img dois" src={nodeIcon}></img>
                         }
                     </div>
