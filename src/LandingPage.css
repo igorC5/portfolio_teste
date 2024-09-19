@@ -72,8 +72,8 @@ h2{
 /*FUNDO 2*/
 #fundo2{
     background: linear-gradient(rgb(48, 47, 66),   black,black, black, black, black, black ); 
-    
-    height: 90vh;
+    scroll-margin-top: .8em;
+    height: 100vh;
 }
 
 #fundo3{

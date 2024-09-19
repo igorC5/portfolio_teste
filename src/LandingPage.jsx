@@ -7,6 +7,7 @@ import VerMaisBtn from "./VerMaisBtn";
 import ContainerInfos from "./ContainerInfos";
 import Descricao from "./Descricao";
 
+import downArrow from './assets/downArrow.png'
 import githubLogo from './assets/githubWhite.png' 
 import phoneIcon from './assets/phoneIcon.png'
 import emailIcon from './assets/emailIcon.png'
@@ -73,11 +74,11 @@ function LandingPage(){
                     
                     <VerMaisBtn></VerMaisBtn>
                 </div>
-                
-                
             </div>
             
-            <div id="fundo2">
+            
+
+            <div  id="fundo2">
                 <br></br><br></br><br></br>
                 <Descricao></Descricao>
                 <br></br><br></br>
@@ -88,11 +89,9 @@ function LandingPage(){
                         <img className="img um" src={jsIcon}></img>
                         <img className="img dois menor" src={githubBlack}></img>
                         <img className="img dois menor" src={reactJS}></img>
-                        <img className="img dois" src={nodeIcon}></img>
+                        {// <img className="img dois" src={nodeIcon}></img>
+                        }
                     </div>
-
-                    
-                    
                 </div>
             </div>
             
